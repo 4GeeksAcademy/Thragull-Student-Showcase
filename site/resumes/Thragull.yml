@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio
+    last_name: Campos Alegre
+    
+    # Define yourself in 4-5 words
+    motto: Moving all arround the world
+    
+    # Focus
+    focus: My main target is to be able to work while I enjoy the pleasures of travelling.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm not the kind of person that stands in a single place doing nothing. I always have to be doing something. 
+      I usually work as a Flight Attendant, travelling all around the Glove, but I also want to do something else in
+      my free time, and I realised that programming is something I can do from everywhere. 
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/a/ACg8ocKPxOXHj2BvW_EMRT8lssAzq62ZGvgsbSFGvTZ-a_fa3A0=s288-c-no
+
+    # Contact Information
+    email: antcamal@gmail.com #optional
+    phone: +34 679618244 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: thragull
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Travelling
+
+      - item: VideoGames
+
+      - item: Cooking
+
+      - item: Skiing
+
+# Your previous education
+education:
+    - degree: High School Degree in Technology
+      university: Colegio Teresiano del Pilar 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2002 - 2004
+      details: |
+        I was studying High School in the area of Technology.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Senior Cabin Crew
+      time: 2023 - Present
+      company: GetJet Airlines
+      # optional
+      company_logo: https://getjet.aero/wp-content/uploads/2019/09/logo.svg
+      details: |
+        My main target is to waranty the safety and security of passengers, crew and aircraft itself.
+        We work for different airlines around the world.
+
+    - role: Senior Cabin Crew 
+      time: 2022
+      company: Air Horizont Ltd.
+      # optional
+      company_logo: https://airhorizont.com/wp-content/uploads/2023/10/air-horizont.png
+      details: |
+        My main target is to waranty the safety and security of passengers, crew and aircraft itself.
+        We work for different airlines around the world.
+
+    - role: Senior Cabin Crew
+      time: 2012 - 2022
+      company: Ryanair DAC
+      # optional
+      company_logo: https://i.pinimg.com/originals/51/50/0f/51500f4049690d2ae2b540ea30910a90.png
+      details: |
+        My main target is to waranty the safety and security of passengers, crew and aircraft itself.
+        We work for different airlines around the world.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+     # - title: Velocity
+        # optional
+      #  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #  link: "#hook"
+      #  tagline: "A responsive website template designed to help startups promote, market and sell their products."
+skills:
+    toolset:
+      - name: Python & Django
+        level: 15%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 20%
